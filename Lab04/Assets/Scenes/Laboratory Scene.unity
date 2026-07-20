@@ -4230,21 +4230,6 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &1520227475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638105428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd65ab4eed160d546a9c20b2c32c2a01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjectViewController
-  viewDistance: 1.5
-  moveSpeed: 3
-  zoom: 1.3
 --- !u!114 &1520227476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5024,21 +5009,6 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &1792172188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792172182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd65ab4eed160d546a9c20b2c32c2a01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjectViewController
-  viewDistance: 1.5
-  moveSpeed: 3
-  zoom: 1.3
 --- !u!114 &1792172189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5292,21 +5262,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.27, y: 0.35, z: -0.56}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1882862201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5662479809436227448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd65ab4eed160d546a9c20b2c32c2a01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UniversalObjectInteraction
-  viewDistance: 1.5
-  moveSpeed: 3
-  zoom: 1.3
 --- !u!114 &1882862202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6855,7 +6810,6 @@ GameObject:
   - component: {fileID: 5034738296433200578}
   - component: {fileID: 1882862198}
   - component: {fileID: 1882862200}
-  - component: {fileID: 1882862201}
   - component: {fileID: 1882862202}
   - component: {fileID: 1882862203}
   - component: {fileID: 1882862204}
@@ -7066,9 +7020,6 @@ PrefabInstance:
       addedObject: {fileID: 1792172187}
     - targetCorrespondingSourceObject: {fileID: 2832533099941537932, guid: 0e2535ecb482e7a43a259712c6ca66c0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1792172188}
-    - targetCorrespondingSourceObject: {fileID: 2832533099941537932, guid: 0e2535ecb482e7a43a259712c6ca66c0, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1792172189}
   m_SourcePrefab: {fileID: 100100000, guid: 0e2535ecb482e7a43a259712c6ca66c0, type: 3}
 --- !u!23 &6969991494155613239
@@ -7214,9 +7165,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5175513534209525347, guid: 1f6c15429b98b734589fa1b323fd7aeb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1520227474}
-    - targetCorrespondingSourceObject: {fileID: 5175513534209525347, guid: 1f6c15429b98b734589fa1b323fd7aeb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1520227475}
     - targetCorrespondingSourceObject: {fileID: 5175513534209525347, guid: 1f6c15429b98b734589fa1b323fd7aeb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1520227476}
