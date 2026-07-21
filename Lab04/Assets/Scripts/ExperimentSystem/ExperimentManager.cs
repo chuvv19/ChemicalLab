@@ -126,8 +126,7 @@ public class ExperimentManager : MonoBehaviour
         if (currentIndex >= steps.Length)
         {
 
-            stepText.text =
-            "实验完成";
+            stepText.text ="实验完成";
 
 
             return;
@@ -136,8 +135,7 @@ public class ExperimentManager : MonoBehaviour
 
 
 
-        steps[currentIndex]
-        .StartStep();
+        steps[currentIndex].StartStep();
 
 
 

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-wrap: nowrap; flex-direction: row; align-items: flex-start; justify-content: center; align-content: auto; padding-top: 30px; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="播放视频" name="video_button" style="position: absolute; top: 49px; left: 380px; width: 150px; height: 50px; font-size: 20px; -unity-font-definition: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); -unity-font-style: bold;"/>
+        <ui:Button text="开始实验" name="start_button" style="position: absolute; top: 51px; left: 123px; width: 150px; height: 50px; -unity-font-definition: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); font-size: 20px; opacity: 1; visibility: visible; overflow: visible; -unity-font-style: bold;"/>
+    </ui:VisualElement>
+</ui:UXML>
