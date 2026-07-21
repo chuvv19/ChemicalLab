@@ -2825,6 +2825,84 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58d93148047363d45a12c673b277817d, type: 3}
+--- !u!1001 &758478907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1578223165}
+    m_Modifications:
+    - target: {fileID: 479137984429200566, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_Name
+      value: SeparatoryFunnel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2370125696404762651, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 62dad06c47d1d1a448901a67f077f0b6, type: 2}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.30846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8056898
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+--- !u!4 &758478908 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4204867984210339838, guid: 822bca217c4f17442961850fa6753afe, type: 3}
+  m_PrefabInstance: {fileID: 758478907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &767033569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4606,6 +4684,7 @@ Transform:
   - {fileID: 1520227469}
   - {fileID: 644163822}
   - {fileID: 1994701728}
+  - {fileID: 758478908}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1585979167
@@ -6441,6 +6520,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2091936e4a18ff5459dc91fe3cb53faf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BottlePour
+  bottle: {fileID: 0}
+  target: {fileID: 0}
+  liquidStream: {fileID: 0}
+  targetLiquid: {fileID: 0}
+  rotateAngle: 70
+  speed: 2
 --- !u!114 &3012560614070537780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6453,6 +6538,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb96be60ba6f4a409fd402497347316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BottleCapController
+  cap: {fileID: 0}
+  rotateAngle: 90
+  speed: 2
+  positionOffset: 0.1
 --- !u!114 &3012560614070537781
 MonoBehaviour:
   m_ObjectHideFlags: 0
